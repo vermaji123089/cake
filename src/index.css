@@ -1,13 +1,142 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.maincake{
+  /* margin: 1rem; */
+  margin-top: -800px;
+}
+.cakepics img{
+  height: 100px;
+  width: 100px;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+.maincake{
+  display: flex;
+
+}
+.CakeDetail{
+ text-align: left;
+  /* background-color: aqua; */
+  width: 50%;
+  height: 20%;
+ 
+}
+.CakeDetail h1{
+  font-size: 1.5rem;
+  font: bold;
+}
+.sp1{
+  margin-left: 0.5rem;
+  color: rgb(92, 84, 84);
+}
+.sp2{
+  color: green;
+  margin-left: 1rem
+}
+.place{
+  display: flex;
+  
+}
+/* ///blank////// */
+/* .image-container img.large {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  max-height: 80%;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+} */
+.deltime{
+  justify-content: space-evenly;
+  display: flex;
+  height: 75px;
+  width: 70%;
+  border: solid 1px ;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+.deltime button{
+ font-size: 1rem;
+ height: fit-content;
+  border: solid 1px rgb(122, 108, 108) ;
+  border-radius: 0.5rem ;
+  margin: 0.8rem;
+
+  width: 85px;
+}
+.deltime button span{
+  color: green;
+}
+.deltime button:hover{
+  background-color: rgb(202, 174, 174);
+  transition: all 0.8s;
+  color: rgb(19, 19, 18);
+}
+#time{
+  font-size: 1rem;
+padding: 10px 50px;
+  border: solid 1px rgb(122, 108, 108) ;
+  border-radius: 0.5rem ;
+  margin: 0.8rem;
+
+
+}
+.salebtn{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ulm{
+  display: flex;
+  justify-content: space-evenly;
+}
+.ulm{
+  margin: 1.5rem;
+}
+.Review{
+  margin-top: 2rem;
+
+}
+.reviewcard{
+  display: flex;
+}
+.card{
+  height: 150px;
+  margin: 0.5rem;
+  width: 35%;
+ 
+}
+.card img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid 1px;
+}
+.togimg{
+  height: 500px;
+  width: 300px;
+  margin: 1rem;
+}
+label img{
+  height: 100px;
+  width: 100px;
+}
+.slid img{
+  height: 250px;
+  width: 50rem;
+  margin: 1rem;
+
+}
+.slid{
+  overflow-x: scroll;
+  display: flex;
+
 }
