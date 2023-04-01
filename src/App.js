@@ -1,4 +1,4 @@
-import { HStack } from '@chakra-ui/react';
+
 import './App.css';
 // import Blank from './component/Blank';
 import CakeDetail from './component/CakeDetail';
