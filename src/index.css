@@ -4,7 +4,7 @@
 
 .maincake{
   /* margin: 1rem; */
-  margin-top: -800px;
+  /* margin-top: -800px; */
 }
 .cakepics img{
   height: 100px;
@@ -12,9 +12,19 @@
   margin-top: 0.5rem;
   border-radius: 0.5rem;
 }
-.maincake{
-  display: flex;
 
+/* .maincake {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+.maincake {
+  height: 723px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .CakeDetail{
  text-align: left;
@@ -39,21 +49,7 @@
   display: flex;
   
 }
-/* ///blank////// */
-/* .image-container img.large {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-  width: 80%;
-  height: auto;
-  max-width: 800px;
-  max-height: 80%;
-  border: none;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #fff;
-} */
+
 .deltime{
   justify-content: space-evenly;
   display: flex;
@@ -129,6 +125,9 @@ label img{
   height: 100px;
   width: 100px;
 }
+label{
+  height: 113px;
+}
 .slid img{
   height: 250px;
   width: 50rem;
@@ -140,3 +139,68 @@ label img{
   display: flex;
 
 }
+.appch{
+  display: flex;
+  margin: 5rem;
+  justify-content: space-evenly;
+  }
+  @media only screen and (max-width: 1025px){
+    .maincake {
+      height: 500px;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-around;
+      align-content: center;
+      flex-wrap: wrap;
+  }
+    .cakepics{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .cakepics img{
+      margin: 0.5rem;
+    }
+    .appch{
+      display: block;
+      margin: 5rem;
+      /* justify-content: space-evenly; */
+      }
+     
+      .togimg {
+        height: 311px;
+        width: 300px;
+        margin: 1rem;
+    }
+    .deltime {
+      justify-content: space-evenly;
+      display: flex;
+      height: 80px;
+      width: 236%;
+      margin-left: -3rem;
+      border: solid 1px;
+      border-radius: 1.5rem;
+      text-align: center;
+  }
+  .place {
+    display: flex;
+    width: 200%;
+    justify-content: space-evenly;
+}
+.salebtn {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 8rem;
+}
+.salebtn button{
+  margin: 0.5rem;
+ 
+}
+.discrip{
+  width: 200%;
+}
+.Review {
+  margin-top: 2rem;
+  width: 222%;
+}
+  }

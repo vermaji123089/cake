@@ -88,9 +88,10 @@ height:'35px',
     <br />
     <p><b>Product Discription</b></p>
     <br />
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio cum eos illo qui rem! Illo voluptates molestias dolor accusamus excepturi voluptatum, quo voluptate quibusdam quisquam ratione quae itaque? Sit, maiores.
-    Repellendus enim quod minima repellat repudiandae nemo esse vero numquam explicabo? Officia corrupti dolorem, quia similique mollitia aliquid quo corporis veritatis cupiditate consequatur expedita animi eius odit neque adipisci sapiente?
-    Nulla doloremque maiores voluptatem sint aliquid, officiis placeat? Optio quasi laudantium, reiciendis, id, dolores ratione am autem recusandae repellendus. Ab.</p>
+    <p  style={{
+
+    }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio cum eos illo qui rem! Illo voluptates molestias dolor accusamus excepturi voluptatum, quo voluptate quibusdam quisquam ratione quae itaque? Sit, maiores.
+    Repellendus enim quod minimaaliquid, officiis placeat? Optio quasi laudantium, reiciendis, id, dolores ratione am autem recusandae repellendus. Ab.</p>
     <div className="ulm">
         <ul>
             <li>wieght: 500g</li>

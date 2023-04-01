@@ -9,20 +9,11 @@ function App() {
   return (
     <div className="App">
      
-  <HStack style={{
-    margin:'auto',
-    // display:'flex',
-    justifyContent:'space-evenly'
-    ,
-  }}
-
- 
-  >
-   
+  <div className='appch'>    
   <Cakepic/>
      <CakeDetail/>
    
-  </HStack>
+  </div>
   <Slider/>
     </div>
   );
